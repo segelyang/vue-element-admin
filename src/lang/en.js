@@ -22,6 +22,7 @@ export default {
     componentMixin: 'Mixin',
     backToTop: 'BackToTop',
     dragDialog: 'Drag Dialog',
+    dragSelect: 'Drag Select',
     dragKanban: 'Drag Kanban',
     charts: 'Charts',
     keyboardChart: 'Keyboard Chart',
@@ -60,14 +61,16 @@ export default {
     exportZip: 'Export Zip',
     theme: 'Theme',
     clipboardDemo: 'Clipboard',
-    i18n: 'I18n'
+    i18n: 'I18n',
+    externalLink: 'External Link'
   },
   navbar: {
     logOut: 'Log Out',
     dashboard: 'Dashboard',
     github: 'Github',
-    screenfull: 'screenfull',
-    theme: 'theme'
+    screenfull: 'Screenfull',
+    theme: 'Theme',
+    size: 'Global Size'
   },
   login: {
     title: 'Login Form',
@@ -132,7 +135,7 @@ export default {
   },
   excel: {
     export: 'Export',
-    selectedExport: 'Export selected items',
+    selectedExport: 'Export Selected Items',
     placeholder: 'Please enter the file name(default excel-list)'
   },
   zip: {
@@ -140,11 +143,12 @@ export default {
     placeholder: 'Please enter the file name(default file)'
   },
   theme: {
-    change: 'Theme change',
+    change: 'Change Theme',
     documentation: 'Theme documentation',
     tips: 'Tips: It is different from the theme-pick on the navbar is two different skinning methods, each with different application scenarios. Refer to the documentation for details.'
   },
   tagsView: {
+    refresh: 'Refresh',
     close: 'Close',
     closeOthers: 'Close Others',
     closeAll: 'Close All'
